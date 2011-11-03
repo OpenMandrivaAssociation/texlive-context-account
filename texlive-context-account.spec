@@ -1,3 +1,9 @@
+# revision 23167
+# category ConTeXt
+# catalog-ctan /macros/context/contrib/context-account
+# catalog-date 2009-02-07 09:38:09 +0100
+# catalog-license pd
+# catalog-version undef
 Name:		texlive-context-account
 Version:	20090207
 Release:	1
@@ -49,6 +55,7 @@ TeXLive context-account package.
 %{_texmfdistdir}/tex/context/third/account/t-floatnumber.tex
 %doc %{_texmfdistdir}/doc/context/third/account/README
 %doc %{_texmfdistdir}/doc/context/third/account/account-doc.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ TeXLive context-account package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
