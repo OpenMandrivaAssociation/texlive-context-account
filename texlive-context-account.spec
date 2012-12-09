@@ -51,3 +51,17 @@ TeXLive context-account package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20090207-2
++ Revision: 750484
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20090207-1
++ Revision: 718122
+- texlive-context-account
+- texlive-context-account
+- texlive-context-account
+- texlive-context-account
+
