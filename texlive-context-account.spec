@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-context-account
 Version:	20090207
-Release:	5
+Release:	6
 Summary:	A simple accounting package
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/context/contrib/context-account
