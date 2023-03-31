@@ -1,6 +1,6 @@
 Name:		texlive-context-account
 Version:	47085
-Release:	1
+Release:	2
 Summary:	A simple accounting package
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/context/contrib/context-account
